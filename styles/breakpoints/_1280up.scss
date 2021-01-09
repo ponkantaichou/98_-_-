@@ -3,12 +3,13 @@
 Stylesheet: 1280px以上のモニタで適用
 
 ******************************************************************/
+.travel {
+  &__inner {
+    padding: 50px 150px;
+  }
+}
 .popular {
   &__item {
     flex-basis: 23%;
-  }
-
-  &_img {
-    height: 335px;
   }
 }
