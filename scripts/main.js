@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const so = new ScrollObserver('.tween-animate-title', cb);
 
-    const _inviewAnimation = function(el, inview) {
+    const _navAnimation = function(el, inview) {
         if (inview) {
             el.classList.add('inview');
         }else {
@@ -19,6 +19,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    const so2 = new ScrollObserver('.cover-slide', _inviewAnimation);
+    const so3 = new ScrollObserver('.cover-slide', _navAnimation);
 });
 
